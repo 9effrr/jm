@@ -1,0 +1,93 @@
+{
+  "name": "JM",
+  "short_name": "JM",
+  "description": "Calendar, tasks and projects in one quiet place.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#1D202C",
+  "theme_color": "#1D202C",
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "id": "./",
+  "shortcuts": [
+    {
+      "name": "New task",
+      "short_name": "Add",
+      "url": "./?a=add",
+      "icons": [
+        {
+          "src": "sc-add.png",
+          "sizes": "96x96",
+          "type": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "New note",
+      "short_name": "Note",
+      "url": "./?a=note",
+      "icons": [
+        {
+          "src": "sc-add.png",
+          "sizes": "96x96",
+          "type": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "Today",
+      "short_name": "Today",
+      "url": "./?v=home",
+      "icons": [
+        {
+          "src": "sc-today.png",
+          "sizes": "96x96",
+          "type": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "Tasks",
+      "short_name": "Tasks",
+      "url": "./?v=tasks",
+      "icons": [
+        {
+          "src": "sc-tasks.png",
+          "sizes": "96x96",
+          "type": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "Review",
+      "short_name": "Review",
+      "url": "./?v=review",
+      "icons": [
+        {
+          "src": "sc-review.png",
+          "sizes": "96x96",
+          "type": "image/png"
+        }
+      ]
+    }
+  ]
+}
